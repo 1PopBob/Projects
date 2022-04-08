@@ -41,7 +41,6 @@ void shuffle(int cards[])
 
 void printCard(int id)
 {
-  /******** You complete ****************/
   cout << type[id%13] << "-" << suit[id/13] << " "; 
 }
 
@@ -57,7 +56,6 @@ int cardValue(int id)
 
 void printHand(int hand[], int numCards)
 {
-  /******** You complete ****************/
   for(int i = 0; i < numCards; i++)
   {
     printCard(hand[i]);
