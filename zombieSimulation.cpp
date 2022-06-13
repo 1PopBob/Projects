@@ -10,7 +10,7 @@ int main()
 	int personBitten = 0, nights = 0, maxNights = 0, minNights = 0;
 	double averageNights = 0, totalNights = 0;
 	bool pop[500];
-	cout << "Enter the following: N k M seed " << endl;;
+	cout << "Enter the following: N k M seed " << endl;
 	cin >> N >> k >> M >> seed;
 	int infected = k, tempk = k;
 	srand(seed);
